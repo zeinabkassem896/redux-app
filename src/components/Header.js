@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container, Row } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import '../css/Header.css';
 import LogoImage from '../assets/images/bird.jpg'
 
@@ -8,12 +8,10 @@ import LogoImage from '../assets/images/bird.jpg'
 export default function Header() {
   return (
         <>
-        <Container>
-            <Row className="justify-content-md-center">
-                <img src={LogoImage} alt="logo" className='logo'/>
-            </Row>
-            <Row>
-                <Navbar sticky='top' className='header'>
+        <div className='header'>
+            <a href="/"><img src={LogoImage} alt="logo" className='logo'/></a>
+            <div>
+            <Navbar sticky='top' className='header'>
                     <Container>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mx-auto parent">
@@ -26,8 +24,9 @@ export default function Header() {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-            </Row>
-        </Container>
+            </div>
+
+        </div>
      </>
 
 

@@ -1,15 +1,19 @@
 .logo{
-    width: 250px !important;
-    margin-top: 5px !important
+    width: 200px !important;
 }
 .headernavbar_link{
     color: #eb5455 !important;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 23px;
     border-bottom: 3px solid transparent;
 
 }
 .headernavbar_link:hover{
     color: #ff9520 !important;
     border-bottom: 3px solid #ff9520;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

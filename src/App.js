@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 /**** COMPONENTS  ****/
 import TopHeader from "./components/TopHeader";
+import Footer from './components/Footer'
 
 /**** PAGES  ****/
 import Home from './pages/Home';
@@ -24,6 +25,7 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
+        <Footer/>
     </>
     
   );

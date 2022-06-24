@@ -1,0 +1,11 @@
+.footer{
+    height: 150px
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #eb5455 !important;
+}
