@@ -13,3 +13,7 @@
     color: #ff9520 !important;
     border-bottom: 3px solid #ff9520;
 }
+
+.loading_image {
+    animation: 5s infinite linear;
+}

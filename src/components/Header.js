@@ -10,7 +10,7 @@ export default function Header() {
         <>
         <Container>
             <Row className="justify-content-md-center">
-                <img src={LogoImage} alt="logo" className='logo'/>
+                <img src={LogoImage} alt="logo" className='logo '/>
             </Row>
             <Row>
                 <Navbar sticky='top' className='header'>

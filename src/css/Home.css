@@ -2,7 +2,12 @@
     width: 100%;
 }
 .home_subimage{
-    width: 75%
+    width: 200px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.home_subimage:hover{
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    width: 190px;
 }
 .red_text{
     color: #eb5455;
@@ -24,4 +29,21 @@ p span {
 
 .background_color{
     margin-top: 30px;
+}
+
+.our_story{
+    color: #3bb0ba;
+    font-size: 18px;
+}
+
+.product_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_image img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
 }

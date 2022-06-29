@@ -9,12 +9,20 @@ import Home from './pages/Home';
 /**** CSS  ****/
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import LogoImage from './assets/images/bird.jpg'
+import 'animate.css';
 
 
 function App() {
   return (
     <>
+    {1!=1 ?
+      <div>
+        <img src={LogoImage} className='loading_image animate__swing '/>
+        </div>
+      : 
+      <>
+
        <TopHeader/>
        <BrowserRouter>
           <Routes>
@@ -24,6 +32,8 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
+        </>
+}
     </>
     
   );
