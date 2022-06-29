@@ -1,0 +1,15 @@
+.search_input:focus{
+    box-shadow: none !important;
+    border-color: #ced4da !important
+}
+.search_input{
+    color: rgb(155, 150, 150) !important
+}
+#basic-addon1{
+    background-color: white;
+    color: rgb(235,84,85)
+}
+
+::placeholder{
+    color: rgb(155, 150, 150) !important
+}

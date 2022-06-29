@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 
 /**** PAGES  ****/
 import Home from './pages/Home';
+import Product from './pages/products'
 
 /**** CSS  ****/
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,7 +30,7 @@ function App() {
           <Routes>
             <Route path={"/"}>
               <Route index element={<Home />}></Route>
-              <Route path="/home" element={<Home />}></Route>
+              <Route path="/product" element={<Product />}></Route>
             </Route>
           </Routes>
         </BrowserRouter>

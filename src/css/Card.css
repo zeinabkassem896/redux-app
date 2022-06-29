@@ -1,0 +1,30 @@
+.product_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_image img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_title{
+    display: none;
+}
+.card_all:hover{
+    cursor: pointer;
+}
+.card_all:hover .card_title{
+    display: block;
+}
+.card_all:hover .card-img-overlay{
+    background-color: rgba(235,84,85,0.3);
+}

@@ -17,7 +17,7 @@
 p {
     width: 100%; 
     text-align: center; 
-    border-bottom: 1px solid #000; 
+    border-bottom: 2px solid rgb(235,84,85); 
     line-height: 0.1em;
     margin: 10px 0 20px; 
  } 
@@ -34,16 +34,4 @@ p span {
 .our_story{
     color: #3bb0ba;
     font-size: 18px;
-}
-
-.product_image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.product_image img{
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
 }

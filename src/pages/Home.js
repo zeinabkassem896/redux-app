@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import CarImg from '../assets/images/car_crop.jpg';
 import CarImg2 from '../assets/images/car.jpg';
 import Icon1 from '../assets/images/Dolls_with_background300x.png';
 import Icon2 from '../assets/images/icons_with_background_1.png';
@@ -18,7 +17,8 @@ import Toy6 from '../assets/images/toy6.jpg';
 import Toy7 from '../assets/images/toy7.jpg';
 import Toy8 from '../assets/images/toy8.jpg';
 
-import '../css/Home.css'
+import '../css/Home.css';
+import CardImage from '../components/CardImage';
 
 
 
@@ -41,20 +41,36 @@ export default function Home() {
           <br/><br/><br/><br/><br/>
           
           <Row className="text-center">
-            <Col sm={3} className='product_image'> <img src={Toy1}/> </Col>
-            <Col sm={3} className='product_image'> <img src={Toy2} className='product_image' loading="lazy"/> </Col>
-            <Col sm={3} className='product_image'> <img src={Toy3} className='product_image' loading="lazy"/> </Col>
-            <Col sm={3} className='product_image'> <img src={Toy4} className='product_image' loading="lazy"/> </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={0} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={2} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+             <CardImage key={3} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={4} image={Toy1} title="title1"/>
+            </Col>
           </Row>
             
           <br/><br/>
 
 
           <Row className="text-center">
-            <Col sm={3} className='product_image'> <img src={Toy5}/> </Col>
-            <Col sm={3} className='product_image'> <img src={Toy6} className='product_image' loading="lazy"/> </Col>
-            <Col sm={3} className='product_image'> <img src={Toy7} className='product_image' loading="lazy"/> </Col>
-            <Col sm={3} className='product_image'> <img src={Toy8} className='product_image' loading="lazy"/> </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={5} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={6} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={7} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={8} image={Toy1} title="title1"/>
+            </Col>
           </Row>
             
             
