@@ -33,7 +33,7 @@ export default function Home() {
             <Row className="text-center">
               <Col sm={2}></Col>
               <Col sm={8}>
-                <p className="red_text"><span>Our Product</span></p>
+                <p className="red_text"><span>Our Products</span></p>
               </Col>
             </Row>
 

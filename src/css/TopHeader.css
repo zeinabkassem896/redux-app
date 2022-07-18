@@ -4,3 +4,6 @@
 .topnavbar_container{
     color: white !important
 }
+.navbar-expand{
+    z-index: -999 !important
+}

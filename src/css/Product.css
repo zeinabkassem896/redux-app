@@ -7,9 +7,26 @@
 }
 #basic-addon1{
     background-color: white;
-    color: rgb(235,84,85)
+    color: rgb(235,84,85);
+    width: 35%
 }
 
 ::placeholder{
-    color: rgb(94, 94, 94) !important
+    color: rgb(126, 123, 123) !important
+}
+#input-group-dropdown-1{
+    background-color: white;
+    color: rgb(155, 150, 150);
+    width: 65%
+}
+.dropdown-item{
+    color:  rgb(155, 150, 150) !important;
+    background-color: white !important;
+}
+.btn-outline-secondary.dropdown-toggle.show:focus, .btn-outline-secondary:active:focus{
+    box-shadow: none !important;
+}
+.fiter_items{
+    display: flex;
+    flex-direction: column;
 }

@@ -25,8 +25,9 @@ function App() {
       : 
       <>
 
-       <TopHeader/>
+    
        <BrowserRouter>
+       <TopHeader/>
           <Routes>
             <Route path={"/"}>
               <Route index element={<Home />}></Route>
@@ -34,7 +35,7 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-        </>
+        </> 
 }
         <Footer/>
     </>
