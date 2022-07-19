@@ -5,17 +5,18 @@ import LogoImage from '../assets/images/bird.jpg';
 
 
 
+
 export default function Header() {
   return (
         <>
         <div className='header'>
             <a href="/"><img src={LogoImage} alt="logo" className='logo'/></a>
             <div>
-            <Navbar sticky='top' className='header'>
+            <Navbar sticky='top' className='header' expand={"lg"}>
                     <Container>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mx-auto parent">
-                                <Nav.Link href="/" className='headernavbar_link'> Home </Nav.Link>
+                                <Nav.Link  href={"/"} className='headernavbar_link'> Home </Nav.Link>
                                 <Nav.Link className='headernavbar_link' href="/product"> Products </Nav.Link>
                                 <Nav.Link className='headernavbar_link'> About Us</Nav.Link>
                                 <Nav.Link className='headernavbar_link'> Contact Us</Nav.Link>

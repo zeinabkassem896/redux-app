@@ -14,15 +14,13 @@ const TopHeader = () => {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end ">
                     <Navbar.Text className='topnavbar_container'>
-                    Signed in as: <a href="/home">Mark Otto</a>
+                    Signed in as: <a href="/">Mark Otto</a>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-        <Header/>
       </>
    
   );
 };
-
 export default TopHeader;

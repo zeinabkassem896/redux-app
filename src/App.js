@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 /**** COMPONENTS  ****/
 import TopHeader from "./components/TopHeader";
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 /**** PAGES  ****/
 import Home from './pages/Home';
@@ -28,6 +29,7 @@ function App() {
     
        <BrowserRouter>
        <TopHeader/>
+       <Header/>
           <Routes>
             <Route path={"/"}>
               <Route index element={<Home />}></Route>

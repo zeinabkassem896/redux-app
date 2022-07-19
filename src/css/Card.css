@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2%;
 }
 .product_image img{
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }

@@ -53,12 +53,6 @@ export default function Home() {
             <Col sm={3} className='product_image'>
               <CardImage key={4} image={Toy1} title="title1"/>
             </Col>
-          </Row>
-            
-          <br/><br/>
-
-
-          <Row className="text-center">
             <Col sm={3} className='product_image'>
               <CardImage key={5} image={Toy1} title="title1"/>
             </Col>
@@ -72,6 +66,23 @@ export default function Home() {
               <CardImage key={8} image={Toy1} title="title1"/>
             </Col>
           </Row>
+            
+
+
+          {/* <Row className="text-center">
+            <Col sm={3} className='product_image'>
+              <CardImage key={5} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={6} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={7} image={Toy1} title="title1"/>
+            </Col>
+            <Col sm={3} className='product_image'>
+              <CardImage key={8} image={Toy1} title="title1"/>
+            </Col>
+          </Row> */}
             
             
           <br/><br/><br/><br/><br/>
