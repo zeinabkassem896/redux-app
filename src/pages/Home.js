@@ -29,7 +29,7 @@ export default function Home() {
         <img src={CarImg2} alt="car image" className='home_image'/>
           <Container>
 
-          <br/><br/><br/><br/><br/>
+        
             <Row className="text-center">
               <Col sm={2}></Col>
               <Col sm={8}>
@@ -38,7 +38,7 @@ export default function Home() {
             </Row>
 
 
-          <br/><br/><br/><br/><br/>
+         
           
           <Row className="text-center">
             <Col sm={3} className='product_image'>
@@ -85,7 +85,7 @@ export default function Home() {
           </Row> */}
             
             
-          <br/><br/><br/><br/><br/>
+         
             <Row className="text-center">
               <Col sm={2}></Col>
               <Col sm={8}>
@@ -93,7 +93,7 @@ export default function Home() {
               </Col>
 
 
-          <br/><br/><br/><br/><br/>
+         
           
           <Row className="text-center">
           <Col sm={2}></Col>
@@ -110,7 +110,6 @@ export default function Home() {
           </Row>
             
           </Row>
-          <br/><br/><br/><br/>
 
             <Row className="text-center">
               <Col sm={2}></Col>
@@ -123,7 +122,6 @@ export default function Home() {
           </Container>
             <Container>
       
-              <br/><br/><br/><br/>
               <Row className="text-center">
                 <Col sm={4}> <img src={Icon1} className='home_subimage' loading="lazy"/> </Col>
                 <Col sm={4}> <img src={Icon2} className='home_subimage' loading="lazy"/> </Col>

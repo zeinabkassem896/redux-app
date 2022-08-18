@@ -12,6 +12,8 @@
 .red_text{
     color: #eb5455;
     font-size: 65px;
+    margin-bottom: 50px !important;
+    margin-top: 70px !important;
 }
 
 p {

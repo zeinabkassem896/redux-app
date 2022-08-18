@@ -24,8 +24,6 @@ function App() {
         <img src={LogoImage} className='loading_image animate__swing '/>
         </div>
       : 
-      <>
-
     
        <BrowserRouter>
        <TopHeader/>
@@ -37,8 +35,8 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-        </> 
-}
+       
+ } 
         <Footer/>
     </>
     

@@ -29,4 +29,26 @@
 .fiter_items{
     display: flex;
     flex-direction: column;
+    color: rgb(155, 150, 150);
+    margin-top: 15px;
+}
+.form-check-input:checked{
+    border-color: rgb(235,84,85) !important;
+    background-color: rgb(235,84,85) !important;
+}
+.filter-by{
+    color: rgb(235,84,85);
+    border-bottom: 2px solid rgb(235,84,85);
+    padding-bottom: 5px;
+}
+.pagination{
+    justify-content: center !important;
+}
+.page-link{
+    color: rgb(235,84,85) !important;
+}
+.page-item.active .page-link{
+    background-color: rgb(235,84,85) !important;
+    border-color: rgb(235,84,85) !important;
+    color: white !important;
 }

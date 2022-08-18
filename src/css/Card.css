@@ -28,4 +28,9 @@
 }
 .card_all:hover .card-img-overlay{
     background-color: rgba(235,84,85,0.3);
+    border: none !important;
+    border-radius: 10px;
+}
+.card{
+    border: none !important
 }

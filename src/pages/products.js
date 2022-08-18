@@ -2,6 +2,7 @@ import React from 'react';
 import { InputGroup, Form, Container, Row, Col, Dropdown, DropdownButton } from 'react-bootstrap';
 import CardImage from '../components/CardImage';
 import Toy1 from '../assets/images/toy1.jpg';
+import Pagination from 'react-bootstrap/Pagination';
 
 import '../css/Product.css';
 
@@ -39,7 +40,7 @@ function products(props) {
             </Row>
             <Row>
                 <Col md={3}>
-                    <div className='m-1 ml-2'>Filter By</div>
+                    <div className='m-1 ml-2 filter-by'>Filter By</div>
                     <div className='fiter_items'>
                         <Form.Check
                         inline
@@ -95,6 +96,20 @@ function products(props) {
                     <Col sm={4} className='product_image'>
                         <CardImage key={0} image={Toy1} title="title1"/>
                     </Col>
+                </Row>
+
+                <Row className='text-center'>
+                    <Pagination>
+                        <Pagination.Prev />
+                        <Pagination.Item>{1}</Pagination.Item>
+                        <Pagination.Ellipsis />
+
+                       
+                        <Pagination.Item active>{2}</Pagination.Item>
+                        <Pagination.Item>{3}</Pagination.Item>
+                        <Pagination.Item>{4}</Pagination.Item>
+                        <Pagination.Next />
+                    </Pagination>
                 </Row>
 
                 </Col>
