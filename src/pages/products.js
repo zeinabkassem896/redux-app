@@ -1,5 +1,6 @@
 import React from 'react';
 import { InputGroup, Form, Container, Row, Col, Dropdown, DropdownButton } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import CardImage from '../components/CardImage';
 import Toy1 from '../assets/images/toy1.jpg';
 import Pagination from 'react-bootstrap/Pagination';
@@ -10,7 +11,6 @@ import '../css/Product.css';
 function products(props) {
     return (
         <Container>
-
             <Row className="text-center">
                 <Col md={3}>
                     <InputGroup className="mb-3">
@@ -71,9 +71,10 @@ function products(props) {
                     <Col sm={4} className='product_image'>
                         <CardImage key={0} image={Toy1} title="title1"/>
                     </Col>
-                           
                     <Col sm={4} className='product_image'>
-                        <CardImage key={0} image={Toy1} title="title1"/>
+                        <Link to='/'>
+                            <CardImage key={0} image={Toy1} title="title123445"/>
+                        </Link>
                     </Col>
                     <Col sm={4} className='product_image'>
                         <CardImage key={0} image={Toy1} title="title1"/>

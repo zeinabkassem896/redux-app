@@ -1,5 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+
 import CarImg2 from '../assets/images/car.jpg';
 import Icon1 from '../assets/images/Dolls_with_background300x.png';
 import Icon2 from '../assets/images/icons_with_background_1.png';
@@ -33,7 +35,11 @@ export default function Home() {
             <Row className="text-center">
               <Col sm={2}></Col>
               <Col sm={8}>
-                <p className="red_text"><span>Our Products</span></p>
+                <p className="red_text">
+                <Link to='/product'>
+                  <span className='p_span'>Our Products</span>
+                </Link>
+                </p>
               </Col>
             </Row>
 
@@ -42,28 +48,44 @@ export default function Home() {
           
           <Row className="text-center">
             <Col sm={3} className='product_image'>
-              <CardImage key={0} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={0} image={Toy1} title="title1"/>
+              </Link>
             </Col>
             <Col sm={3} className='product_image'>
-              <CardImage key={2} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={1} image={Toy1} title="title1"/>
+              </Link>
             </Col>
             <Col sm={3} className='product_image'>
-             <CardImage key={3} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={2} image={Toy1} title="title1"/>
+              </Link>
             </Col>
             <Col sm={3} className='product_image'>
-              <CardImage key={4} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={3} image={Toy1} title="title1"/>
+              </Link>
             </Col>
             <Col sm={3} className='product_image'>
-              <CardImage key={5} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={4} image={Toy1} title="title1"/>
+              </Link>
             </Col>
             <Col sm={3} className='product_image'>
-              <CardImage key={6} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={5} image={Toy1} title="title1"/>
+              </Link>
             </Col>
             <Col sm={3} className='product_image'>
-              <CardImage key={7} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={6} image={Toy1} title="title1"/>
+              </Link>
             </Col>
             <Col sm={3} className='product_image'>
-              <CardImage key={8} image={Toy1} title="title1"/>
+              <Link to='/product'>
+                <CardImage key={7} image={Toy1} title="title1"/>
+              </Link>
             </Col>
           </Row>
             
