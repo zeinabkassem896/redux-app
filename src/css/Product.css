@@ -17,6 +17,13 @@
 #input-group-dropdown-1{
     background-color: white;
     color: rgb(155, 150, 150);
+    width: 65%;
+    border: 1px solid rgb(228, 224, 224) !important
+}
+#input-group-dropdown-1:focus{
+    box-shadow: none !important;
+}
+.dropdown-menu.show{
     width: 65%
 }
 .dropdown-item{
@@ -40,6 +47,7 @@
     color: rgb(235,84,85);
     border-bottom: 2px solid rgb(235,84,85);
     padding-bottom: 5px;
+    cursor: default;
 }
 .pagination{
     justify-content: center !important;
@@ -51,4 +59,11 @@
     background-color: rgb(235,84,85) !important;
     border-color: rgb(235,84,85) !important;
     color: white !important;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+.dropdown-toggle::after{
+    margin-left: 50% !important
 }

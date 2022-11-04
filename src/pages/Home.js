@@ -111,7 +111,7 @@ export default function Home() {
             <Row className="text-center">
               <Col sm={2}></Col>
               <Col sm={8}>
-                <p className="red_text"><span>OUR STORY</span></p>
+                <p className="red_text"><span className='p_span'>OUR STORY</span></p>
               </Col>
 
 
@@ -136,7 +136,7 @@ export default function Home() {
             <Row className="text-center">
               <Col sm={2}></Col>
               <Col sm={8}>
-                <p className="red_text"><span>TOYS</span></p>
+                <p className="red_text"><span className='p_span'>TOYS</span></p>
               </Col>
               
             </Row>

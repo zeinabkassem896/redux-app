@@ -24,3 +24,15 @@
 .header2{
     margin-bottom: 10px
 }
+.sticky_header{
+    height: 80px;
+    border-bottom:3px solid  #ff9520;
+    background-color: white;
+    opacity: 1;
+    transition: opacity 0.6s linear;
+}
+.hide_sticky_header{
+    opacity: 0;
+    pointer-events:none;
+}
+
