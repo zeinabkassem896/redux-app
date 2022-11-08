@@ -32,7 +32,7 @@ export default function Home() {
           <Col sm={8}>
             <p className="red_text">
               <Link to="/product">
-                <span className="p_span">Our Products1</span>
+                <span className="p_span">Our Products12</span>
               </Link>
             </p>
           </Col>
